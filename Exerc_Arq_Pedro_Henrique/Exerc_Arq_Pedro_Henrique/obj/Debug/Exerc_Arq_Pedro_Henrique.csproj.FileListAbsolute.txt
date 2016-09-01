@@ -1,0 +1,5 @@
+c:\users\adm\documents\visual studio 2015\Projects\Exerc_Arq_Pedro_Henrique\Exerc_Arq_Pedro_Henrique\bin\Debug\Exerc_Arq_Pedro_Henrique.exe.config
+c:\users\adm\documents\visual studio 2015\Projects\Exerc_Arq_Pedro_Henrique\Exerc_Arq_Pedro_Henrique\bin\Debug\Exerc_Arq_Pedro_Henrique.exe
+c:\users\adm\documents\visual studio 2015\Projects\Exerc_Arq_Pedro_Henrique\Exerc_Arq_Pedro_Henrique\bin\Debug\Exerc_Arq_Pedro_Henrique.pdb
+c:\users\adm\documents\visual studio 2015\Projects\Exerc_Arq_Pedro_Henrique\Exerc_Arq_Pedro_Henrique\obj\Debug\Exerc_Arq_Pedro_Henrique.exe
+c:\users\adm\documents\visual studio 2015\Projects\Exerc_Arq_Pedro_Henrique\Exerc_Arq_Pedro_Henrique\obj\Debug\Exerc_Arq_Pedro_Henrique.pdb
