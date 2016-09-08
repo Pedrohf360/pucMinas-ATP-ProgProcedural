@@ -1,0 +1,6 @@
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\pucMinas\ATP\_16_AlgorSeq_IndiceRepSalar\_16_AlgorSeq_IndiceRepSalar\bin\Debug\_16_AlgorSeq_IndiceRepSalar.exe.config
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\pucMinas\ATP\_16_AlgorSeq_IndiceRepSalar\_16_AlgorSeq_IndiceRepSalar\bin\Debug\_16_AlgorSeq_IndiceRepSalar.exe
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\pucMinas\ATP\_16_AlgorSeq_IndiceRepSalar\_16_AlgorSeq_IndiceRepSalar\bin\Debug\_16_AlgorSeq_IndiceRepSalar.pdb
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\pucMinas\ATP\_16_AlgorSeq_IndiceRepSalar\_16_AlgorSeq_IndiceRepSalar\obj\Debug\_16_AlgorSeq_IndiceRepSalar.csprojResolveAssemblyReference.cache
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\pucMinas\ATP\_16_AlgorSeq_IndiceRepSalar\_16_AlgorSeq_IndiceRepSalar\obj\Debug\_16_AlgorSeq_IndiceRepSalar.exe
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\pucMinas\ATP\_16_AlgorSeq_IndiceRepSalar\_16_AlgorSeq_IndiceRepSalar\obj\Debug\_16_AlgorSeq_IndiceRepSalar.pdb
