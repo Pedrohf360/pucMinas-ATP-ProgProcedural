@@ -1,0 +1,5 @@
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\pucMinas\ATP\_13_AlgorSeq_SalarioProf\_13_AlgorSeq_SalarioProf\bin\Debug\_13_AlgorSeq_SalarioProf.exe.config
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\pucMinas\ATP\_13_AlgorSeq_SalarioProf\_13_AlgorSeq_SalarioProf\bin\Debug\_13_AlgorSeq_SalarioProf.exe
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\pucMinas\ATP\_13_AlgorSeq_SalarioProf\_13_AlgorSeq_SalarioProf\bin\Debug\_13_AlgorSeq_SalarioProf.pdb
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\pucMinas\ATP\_13_AlgorSeq_SalarioProf\_13_AlgorSeq_SalarioProf\obj\Debug\_13_AlgorSeq_SalarioProf.exe
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\pucMinas\ATP\_13_AlgorSeq_SalarioProf\_13_AlgorSeq_SalarioProf\obj\Debug\_13_AlgorSeq_SalarioProf.pdb
