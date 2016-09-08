@@ -1,0 +1,6 @@
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\pucMinas\ATP\_14_AlgorSeq_ConvFahrCentig\_14_AlgorSeq_ConvFahrCentig\bin\Debug\_14_AlgorSeq_ConvFahrCentig.exe.config
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\pucMinas\ATP\_14_AlgorSeq_ConvFahrCentig\_14_AlgorSeq_ConvFahrCentig\bin\Debug\_14_AlgorSeq_ConvFahrCentig.exe
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\pucMinas\ATP\_14_AlgorSeq_ConvFahrCentig\_14_AlgorSeq_ConvFahrCentig\bin\Debug\_14_AlgorSeq_ConvFahrCentig.pdb
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\pucMinas\ATP\_14_AlgorSeq_ConvFahrCentig\_14_AlgorSeq_ConvFahrCentig\obj\Debug\_14_AlgorSeq_ConvFahrCentig.csprojResolveAssemblyReference.cache
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\pucMinas\ATP\_14_AlgorSeq_ConvFahrCentig\_14_AlgorSeq_ConvFahrCentig\obj\Debug\_14_AlgorSeq_ConvFahrCentig.exe
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\pucMinas\ATP\_14_AlgorSeq_ConvFahrCentig\_14_AlgorSeq_ConvFahrCentig\obj\Debug\_14_AlgorSeq_ConvFahrCentig.pdb
