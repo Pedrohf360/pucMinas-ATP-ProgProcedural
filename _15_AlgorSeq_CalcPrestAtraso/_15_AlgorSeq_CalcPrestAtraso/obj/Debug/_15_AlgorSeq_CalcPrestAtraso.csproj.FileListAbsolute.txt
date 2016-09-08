@@ -1,0 +1,5 @@
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\pucMinas\ATP\_15_AlgorSeq_CalcPrestAtraso\_15_AlgorSeq_CalcPrestAtraso\bin\Debug\_15_AlgorSeq_CalcPrestAtraso.exe.config
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\pucMinas\ATP\_15_AlgorSeq_CalcPrestAtraso\_15_AlgorSeq_CalcPrestAtraso\bin\Debug\_15_AlgorSeq_CalcPrestAtraso.exe
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\pucMinas\ATP\_15_AlgorSeq_CalcPrestAtraso\_15_AlgorSeq_CalcPrestAtraso\bin\Debug\_15_AlgorSeq_CalcPrestAtraso.pdb
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\pucMinas\ATP\_15_AlgorSeq_CalcPrestAtraso\_15_AlgorSeq_CalcPrestAtraso\obj\Debug\_15_AlgorSeq_CalcPrestAtraso.exe
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\pucMinas\ATP\_15_AlgorSeq_CalcPrestAtraso\_15_AlgorSeq_CalcPrestAtraso\obj\Debug\_15_AlgorSeq_CalcPrestAtraso.pdb
