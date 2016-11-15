@@ -1,0 +1,6 @@
+C:\Users\ADM\Downloads\Rede doméstica\Faculdade\ATP\pucMinas\_2016_11_14_TrabIndivATP\bin\Debug\_2016_11_14_TrabIndivATP.exe.config
+C:\Users\ADM\Downloads\Rede doméstica\Faculdade\ATP\pucMinas\_2016_11_14_TrabIndivATP\bin\Debug\_2016_11_14_TrabIndivATP.exe
+C:\Users\ADM\Downloads\Rede doméstica\Faculdade\ATP\pucMinas\_2016_11_14_TrabIndivATP\bin\Debug\_2016_11_14_TrabIndivATP.pdb
+C:\Users\ADM\Downloads\Rede doméstica\Faculdade\ATP\pucMinas\_2016_11_14_TrabIndivATP\obj\Debug\_2016_11_14_TrabIndivATP.csprojResolveAssemblyReference.cache
+C:\Users\ADM\Downloads\Rede doméstica\Faculdade\ATP\pucMinas\_2016_11_14_TrabIndivATP\obj\Debug\_2016_11_14_TrabIndivATP.exe
+C:\Users\ADM\Downloads\Rede doméstica\Faculdade\ATP\pucMinas\_2016_11_14_TrabIndivATP\obj\Debug\_2016_11_14_TrabIndivATP.pdb
