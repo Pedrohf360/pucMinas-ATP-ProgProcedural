@@ -1,0 +1,6 @@
+D:\Autodidata\Visual Studio\2016_12_11_Produtos\2016_12_11_Produtos\bin\Debug\2016_12_11_Produtos.exe.config
+D:\Autodidata\Visual Studio\2016_12_11_Produtos\2016_12_11_Produtos\bin\Debug\2016_12_11_Produtos.exe
+D:\Autodidata\Visual Studio\2016_12_11_Produtos\2016_12_11_Produtos\bin\Debug\2016_12_11_Produtos.pdb
+D:\Autodidata\Visual Studio\2016_12_11_Produtos\2016_12_11_Produtos\obj\Debug\2016_12_11_Produtos.csprojResolveAssemblyReference.cache
+D:\Autodidata\Visual Studio\2016_12_11_Produtos\2016_12_11_Produtos\obj\Debug\2016_12_11_Produtos.exe
+D:\Autodidata\Visual Studio\2016_12_11_Produtos\2016_12_11_Produtos\obj\Debug\2016_12_11_Produtos.pdb

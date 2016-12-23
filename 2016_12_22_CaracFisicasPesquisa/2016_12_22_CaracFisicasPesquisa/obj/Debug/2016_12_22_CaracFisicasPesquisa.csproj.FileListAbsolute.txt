@@ -1,0 +1,9 @@
+c:\users\adm\documents\visual studio 2012\Projects\2016_12_22_CaracFisicasPesquisa\2016_12_22_CaracFisicasPesquisa\bin\Debug\2016_12_22_CaracFisicasPesquisa.exe.config
+c:\users\adm\documents\visual studio 2012\Projects\2016_12_22_CaracFisicasPesquisa\2016_12_22_CaracFisicasPesquisa\bin\Debug\2016_12_22_CaracFisicasPesquisa.exe
+c:\users\adm\documents\visual studio 2012\Projects\2016_12_22_CaracFisicasPesquisa\2016_12_22_CaracFisicasPesquisa\bin\Debug\2016_12_22_CaracFisicasPesquisa.pdb
+c:\users\adm\documents\visual studio 2012\Projects\2016_12_22_CaracFisicasPesquisa\2016_12_22_CaracFisicasPesquisa\obj\Debug\2016_12_22_CaracFisicasPesquisa.csprojResolveAssemblyReference.cache
+c:\users\adm\documents\visual studio 2012\Projects\2016_12_22_CaracFisicasPesquisa\2016_12_22_CaracFisicasPesquisa\obj\Debug\2016_12_22_CaracFisicasPesquisa.exe
+c:\users\adm\documents\visual studio 2012\Projects\2016_12_22_CaracFisicasPesquisa\2016_12_22_CaracFisicasPesquisa\obj\Debug\2016_12_22_CaracFisicasPesquisa.pdb
+D:\Autodidata\Visual Studio\2016_12_22_CaracFisicasPesquisa\2016_12_22_CaracFisicasPesquisa\bin\Debug\2016_12_22_CaracFisicasPesquisa.exe.config
+D:\Autodidata\Visual Studio\2016_12_22_CaracFisicasPesquisa\2016_12_22_CaracFisicasPesquisa\obj\Debug\2016_12_22_CaracFisicasPesquisa.exe
+D:\Autodidata\Visual Studio\2016_12_22_CaracFisicasPesquisa\2016_12_22_CaracFisicasPesquisa\obj\Debug\2016_12_22_CaracFisicasPesquisa.pdb
