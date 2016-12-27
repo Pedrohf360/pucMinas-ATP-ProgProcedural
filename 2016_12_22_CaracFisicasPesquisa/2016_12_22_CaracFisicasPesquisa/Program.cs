@@ -74,6 +74,37 @@ namespace _2016_12_22_CaracFisicasPesquisa
             return opcao;
         }
 
+        static int OlhosCastAlturaSup160(CaracFisicas[] nomeStruct)
+        {
+            int olhosCastAlturaSup160 = 0;
+
+            for (int i = 0; i < nomeStruct.Length; i++)
+            {
+                if (nomeStruct[i].altura > 1.60 && nomeStruct[i].corOlhos == 'C') olhosCastAlturaSup160++;
+            }
+
+            return olhosCastAlturaSup160;
+        }
+
+        static int Soma(CaracFisicas[] nomeStruct)
+        {
+            int soma = 0;
+
+            for (int i = 0; i < nomeStruct.Length; i++)
+            {
+                soma += nomeStruct[i].
+            }
+
+            return soma;
+        }
+
+        static double CalcMedia(int valorSomado, int qtdValores)
+        {
+            valorSomado /= qtdValores;
+
+            return valorSomado; //Média
+        }
+
         static void Main(string[] args)
         {
             char[] sexo, corOlhos;
@@ -81,8 +112,6 @@ namespace _2016_12_22_CaracFisicasPesquisa
             int[] idade;
             int opcao;
             CaracFisicas[] pesq1;
-
-            Random r = new Random();
                 
             pesq1 = new CaracFisicas[50];
             sexo = new char[2] { 'M', 'F' };
@@ -109,6 +138,8 @@ namespace _2016_12_22_CaracFisicasPesquisa
 
                     case 2:
                         Console.Clear();
+
+                        CalcMedia(
 
                         Console.WriteLine("\nPressione qualquer tecla para prosseguir.");
                         Console.ReadKey(true);
