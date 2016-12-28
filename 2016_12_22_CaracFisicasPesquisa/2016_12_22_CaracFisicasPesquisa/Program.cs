@@ -120,12 +120,38 @@ namespace _2016_12_22_CaracFisicasPesquisa
             return maiorNum;
         }
 
-        static void MenuOp4(CaracFisicas[] nomeStruct)
+        static int MenuOp4(CaracFisicas[] nomeStruct)
         {
+            int qtdOcorrencias = 0;
+
             for (int i = 0; i < nomeStruct.Length; i++)
             {
-                if (nomeStruct[i].sexo == 'F' && nomeStruct[i].idade >= 20 || nomeStruct[i].idade <= 45 || nomeStruct
+                if ((nomeStruct[i].sexo == 'F' && nomeStruct[i].idade >= 20 || nomeStruct[i].idade <= 45) || (nomeStruct[i].corOlhos == 'V' && nomeStruct[i].altura < 1.70)) qtdOcorrencias++;
             }
+
+            return qtdOcorrencias;
+        }
+
+        static int QtdHomens(CaracFisicas[] nomeStruct)
+        {
+            int qtdHomens = 0;
+
+            for (int i = 0; i < nomeStruct.Length; i++)
+            {
+                if (nomeStruct[i].sexo == 'M') qtdHomens++;
+            }
+
+            return qtdHomens;
+        }
+
+        static double CalcPorcentagem(CaracFisicas[] nomeStruct)
+        {
+            double percHomens;
+            double qtdHomens = QtdHomens(nomeStruct);
+
+            percHomens = qtdHomens / 50 * 100;
+
+            return percHomens;
         }
 
         static void Main(string[] args)
@@ -133,8 +159,8 @@ namespace _2016_12_22_CaracFisicasPesquisa
             char[] sexo, corOlhos;
             float[] altura;
             int[] idade;
-            int opcao, maiorIdade;
-            double media;
+            int opcao, maiorIdade, qtdOcorrenciasOp4;
+            double media, percHomens;
             CaracFisicas[] pesq1;
                 
             pesq1 = new CaracFisicas[50];
@@ -187,6 +213,10 @@ namespace _2016_12_22_CaracFisicasPesquisa
                     case 4:
                         Console.Clear();
 
+                        qtdOcorrenciasOp4 = MenuOp4(pesq1);
+
+                        Console.WriteLine("A quantidade de indivíduos do sexo feminino cuja idade esteja entre 20 e 45 anos (inclusive) ou que tenham olhos verdes e altura inferior a 1,70m = {0}.", qtdOcorrenciasOp4);
+
                         Console.WriteLine("\nPressione qualquer tecla para prosseguir.");
                         Console.ReadKey(true);
                         Console.Clear();
@@ -194,6 +224,10 @@ namespace _2016_12_22_CaracFisicasPesquisa
 
                     case 5:
                         Console.Clear();
+
+                        percHomens = CalcPorcentagem(pesq1);
+
+                        Console.WriteLine("A porcentagem de homens é de: {0}%.", percHomens);
 
                         Console.WriteLine("\nPressione qualquer tecla para prosseguir.");
                         Console.ReadKey(true);
