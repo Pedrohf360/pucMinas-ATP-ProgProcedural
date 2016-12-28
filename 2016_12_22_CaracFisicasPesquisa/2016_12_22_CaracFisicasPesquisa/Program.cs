@@ -92,7 +92,10 @@ namespace _2016_12_22_CaracFisicasPesquisa
 
             for (int i = 0; i < nomeStruct.Length; i++)
             {
-                soma += nomeStruct[i].
+                if (nomeStruct[i].altura > 1.60 && nomeStruct[i].corOlhos == 'C')
+                {
+                    soma += nomeStruct[i].idade;
+                }
             }
 
             return soma;
@@ -111,6 +114,7 @@ namespace _2016_12_22_CaracFisicasPesquisa
             float[] altura;
             int[] idade;
             int opcao;
+            double media;
             CaracFisicas[] pesq1;
                 
             pesq1 = new CaracFisicas[50];
@@ -139,7 +143,9 @@ namespace _2016_12_22_CaracFisicasPesquisa
                     case 2:
                         Console.Clear();
 
-                        CalcMedia(
+                        media = CalcMedia(Soma(pesq1), OlhosCastAlturaSup160(pesq1));
+
+                        Console.WriteLine("Média: {0:N2}", media);
 
                         Console.WriteLine("\nPressione qualquer tecla para prosseguir.");
                         Console.ReadKey(true);
