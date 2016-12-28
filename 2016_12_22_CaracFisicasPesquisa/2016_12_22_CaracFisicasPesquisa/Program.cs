@@ -74,16 +74,16 @@ namespace _2016_12_22_CaracFisicasPesquisa
             return opcao;
         }
 
-        static int OlhosCastAlturaSup160(CaracFisicas[] nomeStruct)
+        static int MenuOp2(CaracFisicas[] nomeStruct)
         {
-            int olhosCastAlturaSup160 = 0;
+            int MenuOp2 = 0;
 
             for (int i = 0; i < nomeStruct.Length; i++)
             {
-                if (nomeStruct[i].altura > 1.60 && nomeStruct[i].corOlhos == 'C') olhosCastAlturaSup160++;
+                if (nomeStruct[i].altura > 1.60 && nomeStruct[i].corOlhos == 'C') MenuOp2++;
             }
 
-            return olhosCastAlturaSup160;
+            return MenuOp2;
         }
 
         static int Soma(CaracFisicas[] nomeStruct)
@@ -108,12 +108,32 @@ namespace _2016_12_22_CaracFisicasPesquisa
             return valorSomado; //Média
         }
 
+        static int MaiorNum(CaracFisicas[] nomeStruct)
+        {
+            int maiorNum = int.MinValue;
+
+            for (int i = 0; i < nomeStruct.Length; i++)
+            {
+                if (nomeStruct[i].idade > maiorNum) maiorNum = nomeStruct[i].idade;
+            }
+
+            return maiorNum;
+        }
+
+        static void MenuOp4(CaracFisicas[] nomeStruct)
+        {
+            for (int i = 0; i < nomeStruct.Length; i++)
+            {
+                if (nomeStruct[i].sexo == 'F' && nomeStruct[i].idade >= 20 || nomeStruct[i].idade <= 45 || nomeStruct
+            }
+        }
+
         static void Main(string[] args)
         {
             char[] sexo, corOlhos;
             float[] altura;
             int[] idade;
-            int opcao;
+            int opcao, maiorIdade;
             double media;
             CaracFisicas[] pesq1;
                 
@@ -143,7 +163,7 @@ namespace _2016_12_22_CaracFisicasPesquisa
                     case 2:
                         Console.Clear();
 
-                        media = CalcMedia(Soma(pesq1), OlhosCastAlturaSup160(pesq1));
+                        media = CalcMedia(Soma(pesq1), MenuOp2(pesq1));
 
                         Console.WriteLine("Média: {0:N2}", media);
 
@@ -154,6 +174,10 @@ namespace _2016_12_22_CaracFisicasPesquisa
 
                     case 3:
                         Console.Clear();
+
+                        maiorIdade = MaiorNum(pesq1);
+
+                        Console.WriteLine("A maior idade é de: {0} anos.", maiorIdade);
 
                         Console.WriteLine("\nPressione qualquer tecla para prosseguir.");
                         Console.ReadKey(true);
