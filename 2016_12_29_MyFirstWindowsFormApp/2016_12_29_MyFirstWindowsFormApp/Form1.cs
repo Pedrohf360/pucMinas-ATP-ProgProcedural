@@ -33,5 +33,10 @@ namespace _2016_12_29_MyFirstWindowsFormApp
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
