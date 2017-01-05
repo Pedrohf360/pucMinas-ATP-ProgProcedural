@@ -1,0 +1,9 @@
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\2016_01_04_Calculadora\bin\Debug\2016_01_04_Calculadora.exe.config
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\2016_01_04_Calculadora\bin\Debug\2016_01_04_Calculadora.exe
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\2016_01_04_Calculadora\bin\Debug\2016_01_04_Calculadora.pdb
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\2016_01_04_Calculadora\obj\Debug\2016_01_04_Calculadora.csprojResolveAssemblyReference.cache
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\2016_01_04_Calculadora\obj\Debug\_2016_01_04_Calculadora.Form1.resources
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\2016_01_04_Calculadora\obj\Debug\_2016_01_04_Calculadora.Properties.Resources.resources
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\2016_01_04_Calculadora\obj\Debug\2016_01_04_Calculadora.csproj.GenerateResource.Cache
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\2016_01_04_Calculadora\obj\Debug\2016_01_04_Calculadora.exe
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\2016_01_04_Calculadora\obj\Debug\2016_01_04_Calculadora.pdb
