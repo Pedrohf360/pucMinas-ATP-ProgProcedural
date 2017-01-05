@@ -74,16 +74,16 @@ namespace _2016_12_22_CaracFisicasPesquisa
             return opcao;
         }
 
-        static int OlhosCastAlturaSup160(CaracFisicas[] nomeStruct)
+        static int MenuOp2(CaracFisicas[] nomeStruct)
         {
-            int olhosCastAlturaSup160 = 0;
+            int MenuOp2 = 0;
 
             for (int i = 0; i < nomeStruct.Length; i++)
             {
-                if (nomeStruct[i].altura > 1.60 && nomeStruct[i].corOlhos == 'C') olhosCastAlturaSup160++;
+                if (nomeStruct[i].altura > 1.60 && nomeStruct[i].corOlhos == 'C') MenuOp2++;
             }
 
-            return olhosCastAlturaSup160;
+            return MenuOp2;
         }
 
         static int Soma(CaracFisicas[] nomeStruct)
@@ -108,13 +108,59 @@ namespace _2016_12_22_CaracFisicasPesquisa
             return valorSomado; //Média
         }
 
+        static int MaiorNum(CaracFisicas[] nomeStruct)
+        {
+            int maiorNum = int.MinValue;
+
+            for (int i = 0; i < nomeStruct.Length; i++)
+            {
+                if (nomeStruct[i].idade > maiorNum) maiorNum = nomeStruct[i].idade;
+            }
+
+            return maiorNum;
+        }
+
+        static int MenuOp4(CaracFisicas[] nomeStruct)
+        {
+            int qtdOcorrencias = 0;
+
+            for (int i = 0; i < nomeStruct.Length; i++)
+            {
+                if ((nomeStruct[i].sexo == 'F' && nomeStruct[i].idade >= 20 || nomeStruct[i].idade <= 45) || (nomeStruct[i].corOlhos == 'V' && nomeStruct[i].altura < 1.70)) qtdOcorrencias++;
+            }
+
+            return qtdOcorrencias;
+        }
+
+        static int QtdHomens(CaracFisicas[] nomeStruct)
+        {
+            int qtdHomens = 0;
+
+            for (int i = 0; i < nomeStruct.Length; i++)
+            {
+                if (nomeStruct[i].sexo == 'M') qtdHomens++;
+            }
+
+            return qtdHomens;
+        }
+
+        static double CalcPorcentagem(CaracFisicas[] nomeStruct)
+        {
+            double percHomens;
+            double qtdHomens = QtdHomens(nomeStruct);
+
+            percHomens = qtdHomens / 50 * 100;
+
+            return percHomens;
+        }
+
         static void Main(string[] args)
         {
             char[] sexo, corOlhos;
             float[] altura;
             int[] idade;
-            int opcao;
-            double media;
+            int opcao, maiorIdade, qtdOcorrenciasOp4;
+            double media, percHomens;
             CaracFisicas[] pesq1;
                 
             pesq1 = new CaracFisicas[50];
@@ -143,7 +189,7 @@ namespace _2016_12_22_CaracFisicasPesquisa
                     case 2:
                         Console.Clear();
 
-                        media = CalcMedia(Soma(pesq1), OlhosCastAlturaSup160(pesq1));
+                        media = CalcMedia(Soma(pesq1), MenuOp2(pesq1));
 
                         Console.WriteLine("Média: {0:N2}", media);
 
@@ -155,6 +201,10 @@ namespace _2016_12_22_CaracFisicasPesquisa
                     case 3:
                         Console.Clear();
 
+                        maiorIdade = MaiorNum(pesq1);
+
+                        Console.WriteLine("A maior idade é de: {0} anos.", maiorIdade);
+
                         Console.WriteLine("\nPressione qualquer tecla para prosseguir.");
                         Console.ReadKey(true);
                         Console.Clear();
@@ -163,6 +213,10 @@ namespace _2016_12_22_CaracFisicasPesquisa
                     case 4:
                         Console.Clear();
 
+                        qtdOcorrenciasOp4 = MenuOp4(pesq1);
+
+                        Console.WriteLine("A quantidade de indivíduos do sexo feminino cuja idade esteja entre 20 e 45 anos (inclusive) ou que tenham olhos verdes e altura inferior a 1,70m = {0}.", qtdOcorrenciasOp4);
+
                         Console.WriteLine("\nPressione qualquer tecla para prosseguir.");
                         Console.ReadKey(true);
                         Console.Clear();
@@ -170,6 +224,10 @@ namespace _2016_12_22_CaracFisicasPesquisa
 
                     case 5:
                         Console.Clear();
+
+                        percHomens = CalcPorcentagem(pesq1);
+
+                        Console.WriteLine("A porcentagem de homens é de: {0}%.", percHomens);
 
                         Console.WriteLine("\nPressione qualquer tecla para prosseguir.");
                         Console.ReadKey(true);
