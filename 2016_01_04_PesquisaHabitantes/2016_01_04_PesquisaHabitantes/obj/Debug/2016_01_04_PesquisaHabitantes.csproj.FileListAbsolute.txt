@@ -1,0 +1,6 @@
+D:\Autodidata\Visual Studio\pucMinas\2016_01_04_PesquisaHabitantes\2016_01_04_PesquisaHabitantes\bin\Debug\2016_01_04_PesquisaHabitantes.exe.config
+D:\Autodidata\Visual Studio\pucMinas\2016_01_04_PesquisaHabitantes\2016_01_04_PesquisaHabitantes\bin\Debug\2016_01_04_PesquisaHabitantes.exe
+D:\Autodidata\Visual Studio\pucMinas\2016_01_04_PesquisaHabitantes\2016_01_04_PesquisaHabitantes\bin\Debug\2016_01_04_PesquisaHabitantes.pdb
+D:\Autodidata\Visual Studio\pucMinas\2016_01_04_PesquisaHabitantes\2016_01_04_PesquisaHabitantes\obj\Debug\2016_01_04_PesquisaHabitantes.csprojResolveAssemblyReference.cache
+D:\Autodidata\Visual Studio\pucMinas\2016_01_04_PesquisaHabitantes\2016_01_04_PesquisaHabitantes\obj\Debug\2016_01_04_PesquisaHabitantes.exe
+D:\Autodidata\Visual Studio\pucMinas\2016_01_04_PesquisaHabitantes\2016_01_04_PesquisaHabitantes\obj\Debug\2016_01_04_PesquisaHabitantes.pdb
