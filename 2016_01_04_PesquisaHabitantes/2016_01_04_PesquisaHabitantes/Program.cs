@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2016_01_04_PesquisaHabitantes
+namespace _516_01_04_PesquisaHabitantes
 {
     class Program
     {
@@ -50,13 +50,28 @@ namespace _2016_01_04_PesquisaHabitantes
             {
                 Console.WriteLine("Digite a opção desejada:\n\n1- Média de salário entre os habitantes;\n2- Maior e menor idade entre o grupo;\n3- Quantidade de mulheres com mais de 2 filhos e renda familiar inferior a R$600, 00.");
                 opcao = int.Parse(Console.ReadLine());
+
+                while (opcao < 1 || opcao > 3)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Opção inválida. Pressione qualquer tecla e tente novamente.");
+                    Console.ReadKey();
+                    Console.Clear();
+                    Console.ResetColor();
+
+                    Console.WriteLine("Digite a opção desejada:\n\n1- Média de salário entre os habitantes;\n2- Maior e menor idade entre o grupo;\n3- Quantidade de mulheres com mais de 2 filhos e renda familiar inferior a R$600, 00.");
+                    opcao = int.Parse(Console.ReadLine());
+                    Console.Clear();
+                }
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.Message);
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("\n" + e.Message);
+                Console.ResetColor();
 
                 Console.WriteLine("\nPressione qualquer tecla para continuar.");
-                Console.ReadLine();
+                Console.ReadKey();
             }
 
             Console.Clear();
@@ -66,13 +81,14 @@ namespace _2016_01_04_PesquisaHabitantes
 
         static void Main(string[] args)
         {
-            int hanitNum = 20, opcao;
+            int habitNum = 5, opcao;
 
-            CaracHab[] search1 = new CaracHab[20];
+            CaracHab[] search1 = new CaracHab[5];
 
             PreencherStruct(search1);
 
-            do{
+            do
+            {
 
                 opcao = Menu();
                 switch (opcao)
