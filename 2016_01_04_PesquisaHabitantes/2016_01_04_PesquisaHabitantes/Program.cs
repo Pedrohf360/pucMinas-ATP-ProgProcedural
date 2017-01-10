@@ -36,12 +36,6 @@ namespace _516_01_04_PesquisaHabitantes
             }
         }
 
-        /* static double CalculaSoma(CaracHab[] nomeStruct)
-         {
-            
-         }
-         */
-
         static int Menu()
         {
             int opcao = 0;
@@ -79,9 +73,31 @@ namespace _516_01_04_PesquisaHabitantes
             return opcao;
         }
 
+        static double CalcularSoma(CaracHab[] nomeStruct)
+        {
+            double soma = 0;
+
+            for (int i = 0; i < nomeStruct.Length; i++)
+            {
+                soma += nomeStruct[i].familiarMoney;
+            }
+
+            return soma;
+        }
+
+        static double CalcularMedia(int quantElementos, double somaElementos)
+        {
+            double media;
+
+            media = somaElementos / quantElementos;
+
+            return media;
+        }
+
         static void Main(string[] args)
         {
             int habitNum = 5, opcao;
+            double media;
 
             CaracHab[] search1 = new CaracHab[5];
 
@@ -89,16 +105,26 @@ namespace _516_01_04_PesquisaHabitantes
 
             do
             {
-
+                Console.Clear();
                 opcao = Menu();
+                Console.Clear();
                 switch (opcao)
                 {
+                    //1- Média de salário entre os habitantes
                     case 1:
+                        media = CalcularMedia(search1.Length, CalcularSoma(search1));
+
+                        Console.WriteLine("A média de salário entre os habitantes é de: R${0:N2}", media);
+
+                        Console.WriteLine("\n\nPressione qualquer tecla para continuar.");
+                        Console.ReadLine();
                         break;
 
+                    //2- Maior e menor idade entre o grupo
                     case 2:
                         break;
 
+                    //3- Quantidade de mulheres com mais de 2 filhos e renda familiar inferior a R$600, 00.ssssss
                     case 3:
                         break;
 
