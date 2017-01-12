@@ -34,8 +34,15 @@ namespace _516_01_04_PesquisaHabitantes
 
                 // Decrementa 1 inteiro da variável "i" se algum valor informativo estiver incorreto, desta forma, a posição em que os dados incorretos
                 // foram digitados será corrigida.
-                if ()
+                if ((nomeStruct[i].age < 0 || nomeStruct[i].age > 150) || (nomeStruct[i].sex < 1 || nomeStruct[i].sex > 2) || nomeStruct[i].childNum < 0)
                 {
+                    Console.Clear();
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Algo de errado não está correto! Verifique os dados digitados e tente novamente!");
+                    Console.ResetColor();
+
+                    Console.WriteLine("\nPressione qualquer tecla para continuar.");
+                    Console.ReadKey();
                     i--;
                 }
 
@@ -171,8 +178,6 @@ namespace _516_01_04_PesquisaHabitantes
 
                 }
             } while (opcao !=  4);
-
-            Console.ReadKey();
         }
     }
 }
