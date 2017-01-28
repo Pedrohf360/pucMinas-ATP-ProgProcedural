@@ -1,0 +1,6 @@
+E:\Autodidata\Visual Studio\pucMinas\2017_01_27_VetMatriz2\2017_01_27_VetMatriz2\bin\Debug\2017_01_27_VetMatriz2.exe.config
+E:\Autodidata\Visual Studio\pucMinas\2017_01_27_VetMatriz2\2017_01_27_VetMatriz2\bin\Debug\2017_01_27_VetMatriz2.exe
+E:\Autodidata\Visual Studio\pucMinas\2017_01_27_VetMatriz2\2017_01_27_VetMatriz2\bin\Debug\2017_01_27_VetMatriz2.pdb
+E:\Autodidata\Visual Studio\pucMinas\2017_01_27_VetMatriz2\2017_01_27_VetMatriz2\obj\Debug\2017_01_27_VetMatriz2.csprojResolveAssemblyReference.cache
+E:\Autodidata\Visual Studio\pucMinas\2017_01_27_VetMatriz2\2017_01_27_VetMatriz2\obj\Debug\2017_01_27_VetMatriz2.exe
+E:\Autodidata\Visual Studio\pucMinas\2017_01_27_VetMatriz2\2017_01_27_VetMatriz2\obj\Debug\2017_01_27_VetMatriz2.pdb
