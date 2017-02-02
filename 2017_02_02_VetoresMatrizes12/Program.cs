@@ -59,13 +59,54 @@ namespace _2017_02_02_VetoresMatrizes12
             return ERRO;
         }
 
+        static double SomaElementosPares(int[,] matriz1, ref int quantidElementPares)
+        {
+            int somaElementosPares = 0;
+            quantidElementPares = 0;
 
+            for (int i = 0; i < matriz1.GetLength(0); i++)
+            {
+                for (int j = 0; j < matriz1.GetLength(1); j++)
+                {
+                    if (matriz1[i, j] % 2 == 0)
+                    {
+                        somaElementosPares += matriz1[i, j];
+                        quantidElementPares++;
+                    }
+                }
+            }
+
+            return somaElementosPares;
+        }
+
+        static double MediaElementosPares(int[,] matriz1)
+        {
+            double mediaElementosPares = 0;
+            double somaElementosPares = 0, quantidElementPares = 0;
+
+            for (int i = 0; i < matriz1.GetLength(0); i++)
+            {
+                for (int j = 0; j < matriz1.GetLength(1); j++)
+                {
+                    if (matriz1[i, j] % 2 == 0)
+                    {
+                        somaElementosPares += matriz1[i, j];
+                        quantidElementPares++;
+                    }
+                }
+            }
+
+            mediaElementosPares = somaElementosPares / quantidElementPares;
+
+            return mediaElementosPares;
+        }
 
         static void Main(string[] args)
         {
+            double mediaElementosParesMatriz;
             int valorMenor, valorMaior, quantidElementEntre2Valores;
             int[,] matriz1;
-            matriz1 = new int[5, 5];
+            matriz1 = new int[2, 4];
 
             Console.WriteLine("Digite o intervalo que deseja analisar:\n");
 
@@ -91,6 +132,11 @@ namespace _2017_02_02_VetoresMatrizes12
 
                 Console.WriteLine("A quantidade de elementos entre {0} e {1}, na linha {2} da matriz informada = {3}.\n", valorMenor, valorMaior, i+1, quantidElementEntre2Valores);
             }
+
+            Console.WriteLine(new string('-', 50));
+
+            mediaElementosParesMatriz = MediaElementosPares(matriz1);
+            Console.WriteLine("\nMédia dos elementos pares da matriz: {0:N2}.", mediaElementosParesMatriz);
 
             Console.WriteLine("\nPressione qualquer tecla para sair.");
             Console.ReadKey(true);
