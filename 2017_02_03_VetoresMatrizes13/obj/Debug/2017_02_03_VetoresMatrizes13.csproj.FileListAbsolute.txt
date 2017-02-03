@@ -1,0 +1,6 @@
+F:\Estudos autônomos\C#\Otavino Mota\2017_02_03_VetoresMatrizes13\bin\Debug\2017_02_03_VetoresMatrizes13.exe.config
+F:\Estudos autônomos\C#\Otavino Mota\2017_02_03_VetoresMatrizes13\bin\Debug\2017_02_03_VetoresMatrizes13.exe
+F:\Estudos autônomos\C#\Otavino Mota\2017_02_03_VetoresMatrizes13\bin\Debug\2017_02_03_VetoresMatrizes13.pdb
+F:\Estudos autônomos\C#\Otavino Mota\2017_02_03_VetoresMatrizes13\obj\Debug\2017_02_03_VetoresMatrizes13.csprojResolveAssemblyReference.cache
+F:\Estudos autônomos\C#\Otavino Mota\2017_02_03_VetoresMatrizes13\obj\Debug\2017_02_03_VetoresMatrizes13.exe
+F:\Estudos autônomos\C#\Otavino Mota\2017_02_03_VetoresMatrizes13\obj\Debug\2017_02_03_VetoresMatrizes13.pdb
