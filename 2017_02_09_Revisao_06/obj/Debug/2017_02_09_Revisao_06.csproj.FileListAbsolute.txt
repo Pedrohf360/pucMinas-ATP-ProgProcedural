@@ -1,0 +1,5 @@
+F:\Estudos autônomos\C#\pucMinas\2017_02_09_Revisao_06\bin\Debug\2017_02_09_Revisao_06.exe.config
+F:\Estudos autônomos\C#\pucMinas\2017_02_09_Revisao_06\bin\Debug\2017_02_09_Revisao_06.exe
+F:\Estudos autônomos\C#\pucMinas\2017_02_09_Revisao_06\bin\Debug\2017_02_09_Revisao_06.pdb
+F:\Estudos autônomos\C#\pucMinas\2017_02_09_Revisao_06\obj\Debug\2017_02_09_Revisao_06.exe
+F:\Estudos autônomos\C#\pucMinas\2017_02_09_Revisao_06\obj\Debug\2017_02_09_Revisao_06.pdb

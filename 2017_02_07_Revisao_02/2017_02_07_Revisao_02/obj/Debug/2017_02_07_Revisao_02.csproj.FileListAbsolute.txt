@@ -1,0 +1,5 @@
+C:\Users\1045301\Documents\Visual Studio 2015\Projects\2017_02_07_Revisao_02\2017_02_07_Revisao_02\bin\Debug\2017_02_07_Revisao_02.exe.config
+C:\Users\1045301\Documents\Visual Studio 2015\Projects\2017_02_07_Revisao_02\2017_02_07_Revisao_02\bin\Debug\2017_02_07_Revisao_02.exe
+C:\Users\1045301\Documents\Visual Studio 2015\Projects\2017_02_07_Revisao_02\2017_02_07_Revisao_02\bin\Debug\2017_02_07_Revisao_02.pdb
+C:\Users\1045301\Documents\Visual Studio 2015\Projects\2017_02_07_Revisao_02\2017_02_07_Revisao_02\obj\Debug\2017_02_07_Revisao_02.exe
+C:\Users\1045301\Documents\Visual Studio 2015\Projects\2017_02_07_Revisao_02\2017_02_07_Revisao_02\obj\Debug\2017_02_07_Revisao_02.pdb
