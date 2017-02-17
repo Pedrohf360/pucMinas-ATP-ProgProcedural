@@ -8,10 +8,10 @@ namespace _2017_02_16_VetoresArquivos1
 {
     class Vendedor
     {
-        private String nome { get; set; }
-        private int valorTotalVendas { get; set; }
-        private double percentualComissao { get; set; }
-        private double valorReceber { get; set; }
+        private String nome;
+        private int valorTotalVendas;
+        private double percentualComissao;
+        private double valorReceber;
 
         public Vendedor (String nomeVendedor, int valorVendas, double comissao)
         {

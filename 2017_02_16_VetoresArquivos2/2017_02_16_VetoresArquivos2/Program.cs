@@ -12,13 +12,51 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace _2017_02_16_VetoresArquivos2
 {
     class Program
     {
+        static string[] LerArquivo()
+        {
+            string textoArquivo, nomeArquivo;
+            string[] itensArquivo;
+
+            do
+            {
+                Console.Write("Digite o nome do arquivo a ser lido: ");
+                nomeArquivo = Console.ReadLine();
+
+                nomeArquivo += ".txt";
+
+                Console.WriteLine("\nPressione qualquer tecla para sair.");
+                Console.ReadKey(true);
+                Console.Clear();
+
+            } while (File.Exists(nomeArquivo) == false);
+
+            using (StreamReader lerArquivo1 = new StreamReader(@nomeArquivo))
+            {
+                textoArquivo = lerArquivo1.ReadToEnd();
+
+                lerArquivo1.Close();
+            };
+
+            itensArquivo = textoArquivo.Split(';', '\r', '\n', '\t');
+
+            return itensArquivo;
+        }
+
         static void Main(string[] args)
         {
+            String nomeArquivo;
+            String[] arquivoClientes;
+
+            arquivoClientes = LerArquivo();
+
+            Console.WriteLine("\nPressione qualquer tecla para sair.");
+            Console.ReadKey(true);
         }
     }
 }
