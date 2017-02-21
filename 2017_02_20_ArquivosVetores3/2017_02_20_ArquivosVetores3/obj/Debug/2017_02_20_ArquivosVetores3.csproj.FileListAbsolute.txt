@@ -1,0 +1,6 @@
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\Projects\2017_02_20_ArquivosVetores3\2017_02_20_ArquivosVetores3\bin\Debug\2017_02_20_ArquivosVetores3.exe.config
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\Projects\2017_02_20_ArquivosVetores3\2017_02_20_ArquivosVetores3\bin\Debug\2017_02_20_ArquivosVetores3.exe
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\Projects\2017_02_20_ArquivosVetores3\2017_02_20_ArquivosVetores3\bin\Debug\2017_02_20_ArquivosVetores3.pdb
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\Projects\2017_02_20_ArquivosVetores3\2017_02_20_ArquivosVetores3\obj\Debug\2017_02_20_ArquivosVetores3.csprojResolveAssemblyReference.cache
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\Projects\2017_02_20_ArquivosVetores3\2017_02_20_ArquivosVetores3\obj\Debug\2017_02_20_ArquivosVetores3.exe
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\Projects\2017_02_20_ArquivosVetores3\2017_02_20_ArquivosVetores3\obj\Debug\2017_02_20_ArquivosVetores3.pdb
