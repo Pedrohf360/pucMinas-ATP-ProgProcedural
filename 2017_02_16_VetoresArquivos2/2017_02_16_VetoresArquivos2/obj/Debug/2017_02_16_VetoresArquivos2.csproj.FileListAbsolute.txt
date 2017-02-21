@@ -1,0 +1,6 @@
+F:\Estudos autônomos\C#\pucMinas\2017_02_16_VetoresArquivos2\2017_02_16_VetoresArquivos2\bin\Debug\2017_02_16_VetoresArquivos2.exe.config
+F:\Estudos autônomos\C#\pucMinas\2017_02_16_VetoresArquivos2\2017_02_16_VetoresArquivos2\bin\Debug\2017_02_16_VetoresArquivos2.exe
+F:\Estudos autônomos\C#\pucMinas\2017_02_16_VetoresArquivos2\2017_02_16_VetoresArquivos2\bin\Debug\2017_02_16_VetoresArquivos2.pdb
+F:\Estudos autônomos\C#\pucMinas\2017_02_16_VetoresArquivos2\2017_02_16_VetoresArquivos2\obj\Debug\2017_02_16_VetoresArquivos2.csprojResolveAssemblyReference.cache
+F:\Estudos autônomos\C#\pucMinas\2017_02_16_VetoresArquivos2\2017_02_16_VetoresArquivos2\obj\Debug\2017_02_16_VetoresArquivos2.exe
+F:\Estudos autônomos\C#\pucMinas\2017_02_16_VetoresArquivos2\2017_02_16_VetoresArquivos2\obj\Debug\2017_02_16_VetoresArquivos2.pdb

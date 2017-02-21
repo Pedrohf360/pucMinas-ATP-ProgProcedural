@@ -1,0 +1,12 @@
+C:\Users\1045301\Documents\Visual Studio 2015\Projects\2017_02_07_Revisao_03\2017_02_07_Revisao_03\bin\Debug\2017_02_07_Revisao_03.exe.config
+C:\Users\1045301\Documents\Visual Studio 2015\Projects\2017_02_07_Revisao_03\2017_02_07_Revisao_03\bin\Debug\2017_02_07_Revisao_03.exe
+C:\Users\1045301\Documents\Visual Studio 2015\Projects\2017_02_07_Revisao_03\2017_02_07_Revisao_03\bin\Debug\2017_02_07_Revisao_03.pdb
+C:\Users\1045301\Documents\Visual Studio 2015\Projects\2017_02_07_Revisao_03\2017_02_07_Revisao_03\obj\Debug\2017_02_07_Revisao_03.csprojResolveAssemblyReference.cache
+C:\Users\1045301\Documents\Visual Studio 2015\Projects\2017_02_07_Revisao_03\2017_02_07_Revisao_03\obj\Debug\2017_02_07_Revisao_03.exe
+C:\Users\1045301\Documents\Visual Studio 2015\Projects\2017_02_07_Revisao_03\2017_02_07_Revisao_03\obj\Debug\2017_02_07_Revisao_03.pdb
+F:\Estudos autônomos\C#\pucMinas\2017_02_07_Revisao_03\2017_02_07_Revisao_03\bin\Debug\2017_02_07_Revisao_03.exe.config
+F:\Estudos autônomos\C#\pucMinas\2017_02_07_Revisao_03\2017_02_07_Revisao_03\obj\Debug\2017_02_07_Revisao_03.exe
+F:\Estudos autônomos\C#\pucMinas\2017_02_07_Revisao_03\2017_02_07_Revisao_03\obj\Debug\2017_02_07_Revisao_03.pdb
+F:\Estudos autônomos\C#\pucMinas\2017_02_07_Revisao_03\2017_02_07_Revisao_03\bin\Debug\2017_02_07_Revisao_03.exe
+F:\Estudos autônomos\C#\pucMinas\2017_02_07_Revisao_03\2017_02_07_Revisao_03\bin\Debug\2017_02_07_Revisao_03.pdb
+F:\Estudos autônomos\C#\pucMinas\2017_02_07_Revisao_03\2017_02_07_Revisao_03\obj\Debug\2017_02_07_Revisao_03.csprojResolveAssemblyReference.cache

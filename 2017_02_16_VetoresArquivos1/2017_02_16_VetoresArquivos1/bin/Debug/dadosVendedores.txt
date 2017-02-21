@@ -1,0 +1,5 @@
+João da Silva;5670;8.0
+Pedro de Sousa;4880;10.0
+Maria de Sá;8310;7.5
+Rosa dos Santos;6600;9.0
+Antônio de Santana;5000;7.5

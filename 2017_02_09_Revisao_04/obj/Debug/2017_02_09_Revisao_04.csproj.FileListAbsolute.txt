@@ -1,0 +1,6 @@
+F:\Estudos autônomos\C#\pucMinas\2017_02_09_Revisao_04\bin\Debug\2017_02_09_Revisao_04.exe.config
+F:\Estudos autônomos\C#\pucMinas\2017_02_09_Revisao_04\bin\Debug\2017_02_09_Revisao_04.exe
+F:\Estudos autônomos\C#\pucMinas\2017_02_09_Revisao_04\bin\Debug\2017_02_09_Revisao_04.pdb
+F:\Estudos autônomos\C#\pucMinas\2017_02_09_Revisao_04\obj\Debug\2017_02_09_Revisao_04.csprojResolveAssemblyReference.cache
+F:\Estudos autônomos\C#\pucMinas\2017_02_09_Revisao_04\obj\Debug\2017_02_09_Revisao_04.exe
+F:\Estudos autônomos\C#\pucMinas\2017_02_09_Revisao_04\obj\Debug\2017_02_09_Revisao_04.pdb
