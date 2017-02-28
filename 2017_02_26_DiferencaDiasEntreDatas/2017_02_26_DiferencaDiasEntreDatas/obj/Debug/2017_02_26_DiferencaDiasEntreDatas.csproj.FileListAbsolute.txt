@@ -1,0 +1,6 @@
+F:\Estudos autônomos\C#\pucMinas\2017_02_26_DiferencaDiasEntreDatas\2017_02_26_DiferencaDiasEntreDatas\bin\Debug\2017_02_26_DiferencaDiasEntreDatas.exe.config
+F:\Estudos autônomos\C#\pucMinas\2017_02_26_DiferencaDiasEntreDatas\2017_02_26_DiferencaDiasEntreDatas\bin\Debug\2017_02_26_DiferencaDiasEntreDatas.exe
+F:\Estudos autônomos\C#\pucMinas\2017_02_26_DiferencaDiasEntreDatas\2017_02_26_DiferencaDiasEntreDatas\bin\Debug\2017_02_26_DiferencaDiasEntreDatas.pdb
+F:\Estudos autônomos\C#\pucMinas\2017_02_26_DiferencaDiasEntreDatas\2017_02_26_DiferencaDiasEntreDatas\obj\Debug\2017_02_26_DiferencaDiasEntreDatas.csprojResolveAssemblyReference.cache
+F:\Estudos autônomos\C#\pucMinas\2017_02_26_DiferencaDiasEntreDatas\2017_02_26_DiferencaDiasEntreDatas\obj\Debug\2017_02_26_DiferencaDiasEntreDatas.exe
+F:\Estudos autônomos\C#\pucMinas\2017_02_26_DiferencaDiasEntreDatas\2017_02_26_DiferencaDiasEntreDatas\obj\Debug\2017_02_26_DiferencaDiasEntreDatas.pdb
