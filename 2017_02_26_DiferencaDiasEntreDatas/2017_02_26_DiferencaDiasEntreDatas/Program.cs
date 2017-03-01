@@ -148,22 +148,23 @@ namespace _2017_02_26_DiferencaDiasEntreDatas
             }
 
             // 2) O ano informado é maior que o ano atual.
-            else if (ano < dataAtual[2])
+            else if (ano > dataAtual[2])
             {
                 // Soma a quant. de dias entre o dia atual até o final de seu respectivo mês + dia informado.
                 quantDias = (diasMesesAnoAtual[dataAtual[1] - 1] - dataAtual[0]) + dia;
 
-                for (int i = dataAtual; i < dataAtual[2]; i++)
+                for (int i = dataAtual[2]; i < ano; i++)
                 {
                     diasMesesAux = VerificaAnoBissexto(i);
 
-                    for (int j = mes; j < 12; j++)
+                    for (int j = dataAtual[1]; j < 12; j++)
                     {
                         quantDias += diasMesesAux[j]; ;
                     }
-                    mes = 0;
+                    dataAtual[1] = 0;
                 }
 
+                // Soma a quant. de dias do início do ano informado até o mês anterior ao informado.
                 for (int j = 0; j < mes - 1; j++)
                 {
                     quantDias += diasMesesAnoInformado[j];
@@ -216,6 +217,7 @@ namespace _2017_02_26_DiferencaDiasEntreDatas
 
                     else quantDias = 0;
 
+                    return quantDias;
                 }
             }
 
@@ -262,7 +264,7 @@ namespace _2017_02_26_DiferencaDiasEntreDatas
 
             diferencaDiasEntreDatas = QuantosDias(dia, mes, ano, dataAtualInt);
 
-            Console.WriteLine("Diferença de dias entre as datas informadas: {0}.", diferencaDiasEntreDatas);
+            Console.WriteLine("Diferença de dias entre as datas informadas: {0} dias.", diferencaDiasEntreDatas);
 
             Console.WriteLine("\nPressione qualquer tecla para sair.");
             Console.ReadKey(true);
