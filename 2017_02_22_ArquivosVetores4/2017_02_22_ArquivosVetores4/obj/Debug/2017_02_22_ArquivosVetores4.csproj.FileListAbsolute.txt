@@ -1,0 +1,5 @@
+E:\Autodidata\Visual Studio\pucMinas\2017_02_22_ArquivosVetores4\2017_02_22_ArquivosVetores4\bin\Debug\2017_02_22_ArquivosVetores4.exe.config
+E:\Autodidata\Visual Studio\pucMinas\2017_02_22_ArquivosVetores4\2017_02_22_ArquivosVetores4\bin\Debug\2017_02_22_ArquivosVetores4.exe
+E:\Autodidata\Visual Studio\pucMinas\2017_02_22_ArquivosVetores4\2017_02_22_ArquivosVetores4\bin\Debug\2017_02_22_ArquivosVetores4.pdb
+E:\Autodidata\Visual Studio\pucMinas\2017_02_22_ArquivosVetores4\2017_02_22_ArquivosVetores4\obj\Debug\2017_02_22_ArquivosVetores4.exe
+E:\Autodidata\Visual Studio\pucMinas\2017_02_22_ArquivosVetores4\2017_02_22_ArquivosVetores4\obj\Debug\2017_02_22_ArquivosVetores4.pdb

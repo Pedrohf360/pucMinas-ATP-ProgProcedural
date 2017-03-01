@@ -1,0 +1,6 @@
+E:\Autodidata\Visual Studio\pucMinas\2017_02_22_ArquivosVetores1\2017_02_22_ArquivosVetores1\bin\Debug\2017_02_22_ArquivosVetores1.exe.config
+E:\Autodidata\Visual Studio\pucMinas\2017_02_22_ArquivosVetores1\2017_02_22_ArquivosVetores1\bin\Debug\2017_02_22_ArquivosVetores1.exe
+E:\Autodidata\Visual Studio\pucMinas\2017_02_22_ArquivosVetores1\2017_02_22_ArquivosVetores1\bin\Debug\2017_02_22_ArquivosVetores1.pdb
+E:\Autodidata\Visual Studio\pucMinas\2017_02_22_ArquivosVetores1\2017_02_22_ArquivosVetores1\obj\Debug\2017_02_22_ArquivosVetores1.exe
+E:\Autodidata\Visual Studio\pucMinas\2017_02_22_ArquivosVetores1\2017_02_22_ArquivosVetores1\obj\Debug\2017_02_22_ArquivosVetores1.pdb
+E:\Autodidata\Visual Studio\pucMinas\2017_02_22_ArquivosVetores1\2017_02_22_ArquivosVetores1\obj\Debug\2017_02_22_ArquivosVetores1.csprojResolveAssemblyReference.cache
