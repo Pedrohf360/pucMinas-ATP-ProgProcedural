@@ -1,0 +1,6 @@
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\2017_03_01_Exerc1POO\2017_03_01_Exerc1POO\bin\Debug\2017_03_01_Exerc1POO.exe.config
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\2017_03_01_Exerc1POO\2017_03_01_Exerc1POO\bin\Debug\2017_03_01_Exerc1POO.exe
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\2017_03_01_Exerc1POO\2017_03_01_Exerc1POO\bin\Debug\2017_03_01_Exerc1POO.pdb
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\2017_03_01_Exerc1POO\2017_03_01_Exerc1POO\obj\Debug\2017_03_01_Exerc1POO.csprojResolveAssemblyReference.cache
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\2017_03_01_Exerc1POO\2017_03_01_Exerc1POO\obj\Debug\2017_03_01_Exerc1POO.exe
+C:\Users\ADM\Documents\Visual Studio 2015\Projects\2017_03_01_Exerc1POO\2017_03_01_Exerc1POO\obj\Debug\2017_03_01_Exerc1POO.pdb
