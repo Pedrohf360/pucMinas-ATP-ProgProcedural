@@ -50,7 +50,6 @@ namespace _2017_03_01_Exerc1POO
                     {
                         Console.WriteLine("Nome: " + vet[j].NomeProduto);
                         Console.WriteLine("Preço de venda: " + vet[j].PrecoVenda);
-                        Console.WriteLine("Quant. estoque: " + vet[j].ImprimiCategoria(i));
                         Console.WriteLine(new string('-', 35));
                     }
                 }
@@ -79,11 +78,29 @@ namespace _2017_03_01_Exerc1POO
 
             totalImpostosPagos = TotalImpostos(vet, 0);
 
-            Console.WriteLine("Total impostos pagos, categoria 0: R${0:N2}.", totalImpostosPagos);
+            Console.WriteLine("Total impostos pagos, categoria Bebidas: R${0:N2}.", totalImpostosPagos);
 
             Console.WriteLine();
 
-            ImprimirVetor(vet);
+            Produto.VendaMercadoria(0, 5, ref Produto.quantEstoqueBedidas, ref Produto.quantEstoqueComida, ref Produto.quantEstoqueMatEscolar);
+
+            Produto.VendaMercadoria(1, 7, ref Produto.quantEstoqueBedidas, ref Produto.quantEstoqueComida, ref Produto.quantEstoqueMatEscolar);
+
+            Produto.VendaMercadoria(2, 9, ref Produto.quantEstoqueBedidas, ref Produto.quantEstoqueComida, ref Produto.quantEstoqueMatEscolar);
+
+            Console.WriteLine("Total vendido bebidas: {0}.", Produto.QuantVendido(0, Produto.quantEstoqueBedidas, Produto.quantEstoqueComida, Produto.quantEstoqueMatEscolar, Produto.quantEstoqueBebidasAux, Produto.quantEstoqueComidaAux, Produto.quantEstoqueMatEscolarAux));
+
+            Console.WriteLine("Total vendido comida: {0}.", Produto.QuantVendido(1, Produto.quantEstoqueBedidas, Produto.quantEstoqueComida, Produto.quantEstoqueMatEscolar, Produto.quantEstoqueBebidasAux, Produto.quantEstoqueComidaAux, Produto.quantEstoqueMatEscolarAux));
+
+            Console.WriteLine("Total vendido material escolar: {0}.", Produto.QuantVendido(2, Produto.quantEstoqueBedidas, Produto.quantEstoqueComida, Produto.quantEstoqueMatEscolar, Produto.quantEstoqueBebidasAux, Produto.quantEstoqueComidaAux, Produto.quantEstoqueMatEscolarAux));
+
+            Console.WriteLine(new string('-', 30));
+            
+            Console.WriteLine("Quantidade restante bebidas: {0}.", Produto.QuantRestanteEstoque(0));
+
+            Console.WriteLine("Quantidade restante bebidas: {0}.", Produto.QuantRestanteEstoque(1));
+
+            Console.WriteLine("Quantidade restante bebidas: {0}.", Produto.QuantRestanteEstoque(2));
 
             Console.WriteLine("\nPressione qualquer tecla para sair.");
             Console.ReadKey(true);

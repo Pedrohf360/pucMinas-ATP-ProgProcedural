@@ -34,7 +34,6 @@ namespace _2017_03_01_Exerc1POO
             this.precoCusto = precoCusto;
             this.margemLucroPorcent = margemLucroPorcent;
 
-            QuantMercadoriasEstoque(categoria, ref quantEstoqueBedidas, ref quantEstoqueComida, ref quantEstoqueMatEscolar);
             this.margemLucro = CalcMargemLucro(margemLucroPorcent, precoCusto);
             this.impostoCobrado = CalcImposto(categoria, precoCusto, margemLucro, impostoPorcentBebidas, impostoPorcentComida, impostoPorcentMatEscolar);
             this.precoVenda = CalcPrecoVenda(precoCusto, margemLucro, impostoCobrado);
@@ -90,25 +89,25 @@ namespace _2017_03_01_Exerc1POO
             return margemLucro;
         }
 
-        public void QuantMercadoriasEstoque (int categoria, ref int quantEstoqueBebidas, ref int quantEstoqueComida, ref int quantEstoqueMatEscolar)
+        public static void VendaMercadoria(int categoria, int quantidade, ref int quantEstoqueBebidas, ref int quantEstoqueComida, ref int quantEstoqueMatEscolar)
         {
             switch (categoria)
             {
                 case 0:
-                    quantEstoqueBebidas--;
+                    quantEstoqueBebidas -= quantidade;
                     break;
 
                 case 1:
-                    quantEstoqueComida--;
+                    quantEstoqueComida -= quantidade;
                     break;
 
                 case 2:
-                    quantEstoqueMatEscolar--;
+                    quantEstoqueMatEscolar -= quantidade;
                     break;
             }
         }
 
-        public int QuantVendido (int categoria, int quantEstoqueBebidas, int quantEstoqueComida, int quantEstoqueMatEscolar, int quantEstoqueBebidasAux, int quantEstoqueComidaAux, int quantEstoqueMatEscolarAux)
+        public static int QuantVendido (int categoria, int quantEstoqueBebidas, int quantEstoqueComida, int quantEstoqueMatEscolar, int quantEstoqueBebidasAux, int quantEstoqueComidaAux, int quantEstoqueMatEscolarAux)
         {
             int totalVendido = 0;
 
@@ -123,14 +122,14 @@ namespace _2017_03_01_Exerc1POO
                     break;
 
                 case 2:
-                    totalVendido = quantEstoqueMatEscolarAux - quantEstoqueMatEscolarAux;
+                    totalVendido = quantEstoqueMatEscolarAux - quantEstoqueMatEscolar;
                     break;
             }
 
             return totalVendido;
         }
 
-        public int ImprimiCategoria (int categoria)
+        public static int QuantRestanteEstoque (int categoria)
         {
             switch (categoria)
             {
@@ -141,7 +140,7 @@ namespace _2017_03_01_Exerc1POO
                     return quantEstoqueComida;
 
                 case 2:
-                    return quantEstoqueMatEscolarAux;
+                    return quantEstoqueMatEscolar;
             }
 
             return 0;
