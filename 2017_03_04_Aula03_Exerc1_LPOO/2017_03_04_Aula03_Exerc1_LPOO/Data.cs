@@ -29,7 +29,7 @@ namespace _2017_03_04_Aula03_Exerc1_LPOO
             Init(d, m, a);
         }
 
-        public bool VerificarData(int[] diasMeses, int d, int m, int a)
+        public static bool VerificarData(int[] diasMeses, int d, int m, int a)
         {
             if ((d < 1 || d > diasMeses[m - 1]) || (m < 1 || m > 12) || (a < 1)) return false;
 
@@ -49,5 +49,7 @@ namespace _2017_03_04_Aula03_Exerc1_LPOO
 
             return anoComum;
         }
+
+
     }
 }

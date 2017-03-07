@@ -1,0 +1,9 @@
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas\2017_03_06_Aula03_Exerc2_LPOO\2017_03_06_Aula03_Exerc2_LPOO\bin\Debug\2017_03_06_Aula03_Exerc2_LPOO.exe.config
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas\2017_03_06_Aula03_Exerc2_LPOO\2017_03_06_Aula03_Exerc2_LPOO\obj\Debug\2017_03_06_Aula03_Exerc2_LPOO.csprojResolveAssemblyReference.cache
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas\2017_03_06_Aula03_Exerc2_LPOO\2017_03_06_Aula03_Exerc2_LPOO\obj\Debug\_2017_03_06_Aula03_Exerc2_LPOO.Form1.resources
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas\2017_03_06_Aula03_Exerc2_LPOO\2017_03_06_Aula03_Exerc2_LPOO\obj\Debug\_2017_03_06_Aula03_Exerc2_LPOO.Properties.Resources.resources
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas\2017_03_06_Aula03_Exerc2_LPOO\2017_03_06_Aula03_Exerc2_LPOO\obj\Debug\2017_03_06_Aula03_Exerc2_LPOO.csproj.GenerateResource.Cache
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas\2017_03_06_Aula03_Exerc2_LPOO\2017_03_06_Aula03_Exerc2_LPOO\bin\Debug\2017_03_06_Aula03_Exerc2_LPOO.exe
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas\2017_03_06_Aula03_Exerc2_LPOO\2017_03_06_Aula03_Exerc2_LPOO\bin\Debug\2017_03_06_Aula03_Exerc2_LPOO.pdb
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas\2017_03_06_Aula03_Exerc2_LPOO\2017_03_06_Aula03_Exerc2_LPOO\obj\Debug\2017_03_06_Aula03_Exerc2_LPOO.exe
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas\2017_03_06_Aula03_Exerc2_LPOO\2017_03_06_Aula03_Exerc2_LPOO\obj\Debug\2017_03_06_Aula03_Exerc2_LPOO.pdb
