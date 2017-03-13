@@ -1,0 +1,9 @@
+F:\Estudos autônomos\C#\pucMinas\2017_06_03_Aula03_Exerc3_LPOO\2017_06_03_Aula03_Exerc3_LPOO\bin\Debug\2017_06_03_Aula03_Exerc3_LPOO.exe.config
+F:\Estudos autônomos\C#\pucMinas\2017_06_03_Aula03_Exerc3_LPOO\2017_06_03_Aula03_Exerc3_LPOO\bin\Debug\2017_06_03_Aula03_Exerc3_LPOO.exe
+F:\Estudos autônomos\C#\pucMinas\2017_06_03_Aula03_Exerc3_LPOO\2017_06_03_Aula03_Exerc3_LPOO\bin\Debug\2017_06_03_Aula03_Exerc3_LPOO.pdb
+F:\Estudos autônomos\C#\pucMinas\2017_06_03_Aula03_Exerc3_LPOO\2017_06_03_Aula03_Exerc3_LPOO\obj\Debug\2017_06_03_Aula03_Exerc3_LPOO.csprojResolveAssemblyReference.cache
+F:\Estudos autônomos\C#\pucMinas\2017_06_03_Aula03_Exerc3_LPOO\2017_06_03_Aula03_Exerc3_LPOO\obj\Debug\_2017_06_03_Aula03_Exerc3_LPOO.Form1.resources
+F:\Estudos autônomos\C#\pucMinas\2017_06_03_Aula03_Exerc3_LPOO\2017_06_03_Aula03_Exerc3_LPOO\obj\Debug\_2017_06_03_Aula03_Exerc3_LPOO.Properties.Resources.resources
+F:\Estudos autônomos\C#\pucMinas\2017_06_03_Aula03_Exerc3_LPOO\2017_06_03_Aula03_Exerc3_LPOO\obj\Debug\2017_06_03_Aula03_Exerc3_LPOO.csproj.GenerateResource.Cache
+F:\Estudos autônomos\C#\pucMinas\2017_06_03_Aula03_Exerc3_LPOO\2017_06_03_Aula03_Exerc3_LPOO\obj\Debug\2017_06_03_Aula03_Exerc3_LPOO.exe
+F:\Estudos autônomos\C#\pucMinas\2017_06_03_Aula03_Exerc3_LPOO\2017_06_03_Aula03_Exerc3_LPOO\obj\Debug\2017_06_03_Aula03_Exerc3_LPOO.pdb

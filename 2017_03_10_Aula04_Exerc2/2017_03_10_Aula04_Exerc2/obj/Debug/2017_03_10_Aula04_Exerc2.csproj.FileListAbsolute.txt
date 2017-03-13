@@ -1,0 +1,9 @@
+F:\Estudos autônomos\C#\pucMinas\2017_03_10_Aula04_Exerc2\2017_03_10_Aula04_Exerc2\bin\Debug\2017_03_10_Aula04_Exerc2.exe.config
+F:\Estudos autônomos\C#\pucMinas\2017_03_10_Aula04_Exerc2\2017_03_10_Aula04_Exerc2\bin\Debug\2017_03_10_Aula04_Exerc2.exe
+F:\Estudos autônomos\C#\pucMinas\2017_03_10_Aula04_Exerc2\2017_03_10_Aula04_Exerc2\bin\Debug\2017_03_10_Aula04_Exerc2.pdb
+F:\Estudos autônomos\C#\pucMinas\2017_03_10_Aula04_Exerc2\2017_03_10_Aula04_Exerc2\obj\Debug\2017_03_10_Aula04_Exerc2.csprojResolveAssemblyReference.cache
+F:\Estudos autônomos\C#\pucMinas\2017_03_10_Aula04_Exerc2\2017_03_10_Aula04_Exerc2\obj\Debug\_2017_03_10_Aula04_Exerc2.Form1.resources
+F:\Estudos autônomos\C#\pucMinas\2017_03_10_Aula04_Exerc2\2017_03_10_Aula04_Exerc2\obj\Debug\_2017_03_10_Aula04_Exerc2.Properties.Resources.resources
+F:\Estudos autônomos\C#\pucMinas\2017_03_10_Aula04_Exerc2\2017_03_10_Aula04_Exerc2\obj\Debug\2017_03_10_Aula04_Exerc2.csproj.GenerateResource.Cache
+F:\Estudos autônomos\C#\pucMinas\2017_03_10_Aula04_Exerc2\2017_03_10_Aula04_Exerc2\obj\Debug\2017_03_10_Aula04_Exerc2.exe
+F:\Estudos autônomos\C#\pucMinas\2017_03_10_Aula04_Exerc2\2017_03_10_Aula04_Exerc2\obj\Debug\2017_03_10_Aula04_Exerc2.pdb

@@ -7,3 +7,6 @@ C:\Users\ADM\Documents\Visual Studio 2015\Projects\2016_01_04_Calculadora\obj\De
 C:\Users\ADM\Documents\Visual Studio 2015\Projects\2016_01_04_Calculadora\obj\Debug\2016_01_04_Calculadora.csproj.GenerateResource.Cache
 C:\Users\ADM\Documents\Visual Studio 2015\Projects\2016_01_04_Calculadora\obj\Debug\2016_01_04_Calculadora.exe
 C:\Users\ADM\Documents\Visual Studio 2015\Projects\2016_01_04_Calculadora\obj\Debug\2016_01_04_Calculadora.pdb
+F:\Estudos autônomos\C#\pucMinas\2016_01_04_Calculadora\bin\Debug\2016_01_04_Calculadora.exe.config
+F:\Estudos autônomos\C#\pucMinas\2016_01_04_Calculadora\obj\Debug\2016_01_04_Calculadora.exe
+F:\Estudos autônomos\C#\pucMinas\2016_01_04_Calculadora\obj\Debug\2016_01_04_Calculadora.pdb
