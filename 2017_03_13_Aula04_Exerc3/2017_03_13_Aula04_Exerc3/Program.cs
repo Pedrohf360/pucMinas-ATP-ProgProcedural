@@ -16,7 +16,7 @@ namespace _2017_03_13_Aula04_Exerc3
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new fmTelaIMC());
         }
     }
 }

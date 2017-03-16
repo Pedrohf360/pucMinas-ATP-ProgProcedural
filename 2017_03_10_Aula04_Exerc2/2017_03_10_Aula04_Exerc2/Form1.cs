@@ -11,15 +11,14 @@ using System.IO;
 
 namespace _2017_03_10_Aula04_Exerc2
 {
-    public partial class Form1 : Form
+    public partial class fmTelaCadastro : Form
     {
-        Conta c = new Conta("Pedro H.", 2958, 123456789, 2, 500);
-
+        Conta[] cliente;
         String[] dadosArquivos;
+        int posAux;
 
-        private String[] SplitArquivo()
+        private void SplitArquivo()
         {
-            String[] dadosArquivosAux;
             String textoArquivo;
 
             using (StreamReader read = new StreamReader(@"dadosContas.txt"))
@@ -28,34 +27,74 @@ namespace _2017_03_10_Aula04_Exerc2
 
                 textoArquivo = textoArquivo.Replace("\r", "");
 
-                dadosArquivosAux = textoArquivo.Split(';', '\n', '\r');
+                dadosArquivos = textoArquivo.Split(';', '\n', '\r');
             }
-
-            return dadosArquivosAux;
         }
 
-        public Form1()
+        private void PreencherVetorClasse(Conta[] vetorClasse)
         {
-            InitializeComponent();
+            int count = 0;
 
-            lbAgenciaNumero.Text = c.agencia.ToString();
-            lbNumContaNumero.Text = c.numConta.ToString();
-            lbSaldoNumero.Text = c.ObterSaldo().ToString();
-            dadosArquivos = SplitArquivo();
+            for (int i = 0; i < vetorClasse.Length; i++)
+            {
+                // Removendo hífen do número de conta, para armazená-lo no vetor de clientes como um tipo inteiro.
+                // Remove (aPartirDe, excluirXvalores);
+                dadosArquivos[count + 2] = dadosArquivos[count + 2].Remove(3, 1);
+
+                cliente[i] = new Conta(dadosArquivos[count], // Nome titular;
+                        int.Parse(dadosArquivos[count + 1]), // Agência;
+                        int.Parse(dadosArquivos[count + 2]), // Núm. conta;
+                        int.Parse(dadosArquivos[count + 3]), // Tipo conta;
+                        double.Parse(dadosArquivos[count + 4])); // Saldo bruto.
+
+                count += 5;
+            }
+        }
+
+        public fmTelaCadastro()
+        {
+            posAux = 0;
+
+            SplitArquivo();
+
+            // Comprimento do vetor de classe: Comprimento vetor splitado / número de informações por cliente, contidas no arquivo txt lido neste programa.
+            cliente = new Conta[dadosArquivos.Length / 5];
+
+            PreencherVetorClasse(cliente);
+
+            InitializeComponent();
         }
 
         private void btDepositar_Click(object sender, EventArgs e)
         {
-            c.Depositar(double.Parse(tbValorOperacao.Text));
+            cliente[posAux].Depositar(double.Parse(tbValorOperacao.Text));
 
-            lbSaldoNumero.Text = c.ObterSaldo().ToString();
+            lbSaldoNum.Text = "R$ " + cliente[posAux].ObterSaldo().ToString();
         }
 
         private void btSacar_Click(object sender, EventArgs e)
         {
-            c.Sacar(double.Parse(tbValorOperacao.Text));
+            cliente[posAux].Sacar(double.Parse(tbValorOperacao.Text));
 
-            lbSaldoNumero.Text = c.ObterSaldo().ToString();
+            lbSaldoNum.Text = "R$ " + cliente[posAux].ObterSaldo().ToString();
+        }
+
+        private void VerificarNomeCliente(object sender, EventArgs e)
+        {
+            tbNomeCliente.Text = tbNomeCliente.Text.ToUpper();
+
+            for (int i = 0; i < cliente.Length; i++)
+            {
+                cliente[i].titular = cliente[i].titular.ToUpper();
+
+                if (tbNomeCliente.Text.Equals(cliente[i].titular) == true)
+                {
+                    lbSaldoNum.Text = "R$ " + cliente[i].ObterSaldo().ToString();
+                    lbAgenciaNum.Text = cliente[i].agencia.ToString();
+                    lbContaNum.Text = cliente[i].numConta.ToString();
+                    posAux = i;
+                }
+            }
         }
     }
 }

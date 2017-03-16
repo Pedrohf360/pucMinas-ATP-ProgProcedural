@@ -1,1 +1,9 @@
 F:\Estudos autônomos\C#\pucMinas\2017_03_13_Aula04_Exerc3\2017_03_13_Aula04_Exerc3\bin\Debug\2017_03_13_Aula04_Exerc3.exe.config
+F:\Estudos autônomos\C#\pucMinas\2017_03_13_Aula04_Exerc3\2017_03_13_Aula04_Exerc3\bin\Debug\2017_03_13_Aula04_Exerc3.exe
+F:\Estudos autônomos\C#\pucMinas\2017_03_13_Aula04_Exerc3\2017_03_13_Aula04_Exerc3\bin\Debug\2017_03_13_Aula04_Exerc3.pdb
+F:\Estudos autônomos\C#\pucMinas\2017_03_13_Aula04_Exerc3\2017_03_13_Aula04_Exerc3\obj\Debug\2017_03_13_Aula04_Exerc3.csprojResolveAssemblyReference.cache
+F:\Estudos autônomos\C#\pucMinas\2017_03_13_Aula04_Exerc3\2017_03_13_Aula04_Exerc3\obj\Debug\_2017_03_13_Aula04_Exerc3.fmTelaIMC.resources
+F:\Estudos autônomos\C#\pucMinas\2017_03_13_Aula04_Exerc3\2017_03_13_Aula04_Exerc3\obj\Debug\_2017_03_13_Aula04_Exerc3.Properties.Resources.resources
+F:\Estudos autônomos\C#\pucMinas\2017_03_13_Aula04_Exerc3\2017_03_13_Aula04_Exerc3\obj\Debug\2017_03_13_Aula04_Exerc3.csproj.GenerateResource.Cache
+F:\Estudos autônomos\C#\pucMinas\2017_03_13_Aula04_Exerc3\2017_03_13_Aula04_Exerc3\obj\Debug\2017_03_13_Aula04_Exerc3.exe
+F:\Estudos autônomos\C#\pucMinas\2017_03_13_Aula04_Exerc3\2017_03_13_Aula04_Exerc3\obj\Debug\2017_03_13_Aula04_Exerc3.pdb

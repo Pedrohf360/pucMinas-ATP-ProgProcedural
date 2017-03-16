@@ -8,7 +8,6 @@ namespace _2017_03_10_Aula04_Exerc2
 {
     class Conta
     {
-        private const int ERRO = -1; // Variável criada apenas para ser retornada em caso de incoerência de dados informados pelo usuário.
         public String titular; // nome do titular da conta
         public int agencia; // número da agência da conta
         public int numConta; // número da conta
@@ -33,12 +32,12 @@ namespace _2017_03_10_Aula04_Exerc2
                 return this.saldoBruto;
 
             if (this.tipoConta == 2)
-                return this.saldoBruto + this.saldoBruto * 0.0050;
+                return saldoLiquido = this.saldoBruto + this.saldoBruto * 0.0050;
 
             if (this.tipoConta == 3)
-                return saldoLiquido = this.saldoBruto + this.saldoBruto * 0.0065 - this.saldoBruto * 0.15;
+                return saldoLiquido = (this.saldoBruto + this.saldoBruto * 0.0065) - this.saldoBruto * 0.15;
 
-            return ERRO;
+            return 0;
         }
 
         public void Depositar(double credito)
