@@ -1,0 +1,9 @@
+F:\Estudos autônomos\C#\pucMinas\2017_03_23_Microondas\2017_03_23_Microondas\bin\Debug\2017_03_23_Microondas.exe.config
+F:\Estudos autônomos\C#\pucMinas\2017_03_23_Microondas\2017_03_23_Microondas\bin\Debug\2017_03_23_Microondas.exe
+F:\Estudos autônomos\C#\pucMinas\2017_03_23_Microondas\2017_03_23_Microondas\bin\Debug\2017_03_23_Microondas.pdb
+F:\Estudos autônomos\C#\pucMinas\2017_03_23_Microondas\2017_03_23_Microondas\obj\Debug\2017_03_23_Microondas.csprojResolveAssemblyReference.cache
+F:\Estudos autônomos\C#\pucMinas\2017_03_23_Microondas\2017_03_23_Microondas\obj\Debug\_2017_03_23_Microondas.Form1.resources
+F:\Estudos autônomos\C#\pucMinas\2017_03_23_Microondas\2017_03_23_Microondas\obj\Debug\_2017_03_23_Microondas.Properties.Resources.resources
+F:\Estudos autônomos\C#\pucMinas\2017_03_23_Microondas\2017_03_23_Microondas\obj\Debug\2017_03_23_Microondas.csproj.GenerateResource.Cache
+F:\Estudos autônomos\C#\pucMinas\2017_03_23_Microondas\2017_03_23_Microondas\obj\Debug\2017_03_23_Microondas.exe
+F:\Estudos autônomos\C#\pucMinas\2017_03_23_Microondas\2017_03_23_Microondas\obj\Debug\2017_03_23_Microondas.pdb
