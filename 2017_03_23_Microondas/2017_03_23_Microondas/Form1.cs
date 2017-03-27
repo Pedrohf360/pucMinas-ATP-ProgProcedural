@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using POOLib;
 
 namespace _2017_03_23_Microondas
 {
@@ -14,9 +15,13 @@ namespace _2017_03_23_Microondas
     {
         Timer relogio = new Timer();
 
+        Relogio relogioMestreCaram = new Relogio();
+
         public Form1()
         {
-            InitializeComponent(); 
+            InitializeComponent();
+
+            pbImagemMicroondas.ImageLocation = @"imagens\microondasLuzDesligada.jpg";
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -80,12 +85,15 @@ namespace _2017_03_23_Microondas
 
         private void btAbrir_Click(object sender, EventArgs e)
         {
-
             // Continuar daqui: como verificar qual é a imagem atual na pictureBOx?
-            if (pbImagemMicroondas.)
+            if (pbImagemMicroondas.ImageLocation == @"imagens\microondasLuzDesligada.jpg")
+            {
                 pbImagemMicroondas.ImageLocation = @"imagens\microondasLuzDesligadaAberto.jpg";
-            else
-                pbImagemMicroondas.ImageLocation = @"imagens\microondasLuzLigadaAberto.jpg";
+            }
+            else if (pbImagemMicroondas.ImageLocation == @"imagens\microondasLuzDesligadaAberto.jpg")
+            {
+                pbImagemMicroondas.ImageLocation = @"imagens\microondasLuzDesligada.jpg";
+            }
 
             pbImagemMicroondas.Load();
         }
