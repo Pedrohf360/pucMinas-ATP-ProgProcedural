@@ -7,3 +7,4 @@ F:\Estudos autônomos\C#\pucMinas\2017_03_23_Microondas\2017_03_23_Microondas\ob
 F:\Estudos autônomos\C#\pucMinas\2017_03_23_Microondas\2017_03_23_Microondas\obj\Debug\2017_03_23_Microondas.csproj.GenerateResource.Cache
 F:\Estudos autônomos\C#\pucMinas\2017_03_23_Microondas\2017_03_23_Microondas\obj\Debug\2017_03_23_Microondas.exe
 F:\Estudos autônomos\C#\pucMinas\2017_03_23_Microondas\2017_03_23_Microondas\obj\Debug\2017_03_23_Microondas.pdb
+F:\Estudos autônomos\C#\pucMinas\2017_03_23_Microondas\2017_03_23_Microondas\bin\Debug\POOLib.dll

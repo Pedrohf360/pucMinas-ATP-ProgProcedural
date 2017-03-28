@@ -40,9 +40,6 @@
             this.bt9 = new System.Windows.Forms.Button();
             this.bt8 = new System.Windows.Forms.Button();
             this.bt7 = new System.Windows.Forms.Button();
-            this.btPotencia = new System.Windows.Forms.Button();
-            this.pbRelogioBotao = new System.Windows.Forms.PictureBox();
-            this.pbLampadaBotao = new System.Windows.Forms.PictureBox();
             this.btSoma = new System.Windows.Forms.Button();
             this.btSubtrai = new System.Windows.Forms.Button();
             this.btDesliga = new System.Windows.Forms.Button();
@@ -50,9 +47,10 @@
             this.btAbrir = new System.Windows.Forms.Button();
             this.timerRelogio = new System.Windows.Forms.Timer(this.components);
             this.lbRelogio = new System.Windows.Forms.Label();
+            this.bt0 = new System.Windows.Forms.Button();
+            this.btPotencia = new System.Windows.Forms.Button();
+            this.timerDecrementa = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pbImagemMicroondas)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbRelogioBotao)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbLampadaBotao)).BeginInit();
             this.SuspendLayout();
             // 
             // pbImagemMicroondas
@@ -74,7 +72,7 @@
             this.bt1.TabIndex = 1;
             this.bt1.Text = "1";
             this.bt1.UseVisualStyleBackColor = true;
-            this.bt1.Click += new System.EventHandler(this.bt1_Click);
+            this.bt1.Click += new System.EventHandler(this.FormataTemporizador);
             // 
             // bt2
             // 
@@ -85,7 +83,7 @@
             this.bt2.TabIndex = 2;
             this.bt2.Text = "2";
             this.bt2.UseVisualStyleBackColor = true;
-            this.bt2.Click += new System.EventHandler(this.bt2_Click);
+            this.bt2.Click += new System.EventHandler(this.FormataTemporizador);
             // 
             // bt3
             // 
@@ -96,6 +94,7 @@
             this.bt3.TabIndex = 3;
             this.bt3.Text = "3";
             this.bt3.UseVisualStyleBackColor = true;
+            this.bt3.Click += new System.EventHandler(this.FormataTemporizador);
             // 
             // bt6
             // 
@@ -106,6 +105,7 @@
             this.bt6.TabIndex = 6;
             this.bt6.Text = "6";
             this.bt6.UseVisualStyleBackColor = true;
+            this.bt6.Click += new System.EventHandler(this.FormataTemporizador);
             // 
             // bt5
             // 
@@ -116,6 +116,7 @@
             this.bt5.TabIndex = 5;
             this.bt5.Text = "5";
             this.bt5.UseVisualStyleBackColor = true;
+            this.bt5.Click += new System.EventHandler(this.FormataTemporizador);
             // 
             // bt4
             // 
@@ -126,6 +127,7 @@
             this.bt4.TabIndex = 4;
             this.bt4.Text = "4";
             this.bt4.UseVisualStyleBackColor = true;
+            this.bt4.Click += new System.EventHandler(this.FormataTemporizador);
             // 
             // bt9
             // 
@@ -136,6 +138,7 @@
             this.bt9.TabIndex = 9;
             this.bt9.Text = "9";
             this.bt9.UseVisualStyleBackColor = true;
+            this.bt9.Click += new System.EventHandler(this.FormataTemporizador);
             // 
             // bt8
             // 
@@ -146,6 +149,7 @@
             this.bt8.TabIndex = 8;
             this.bt8.Text = "8";
             this.bt8.UseVisualStyleBackColor = true;
+            this.bt8.Click += new System.EventHandler(this.FormataTemporizador);
             // 
             // bt7
             // 
@@ -156,58 +160,31 @@
             this.bt7.TabIndex = 7;
             this.bt7.Text = "7";
             this.bt7.UseVisualStyleBackColor = true;
-            // 
-            // btPotencia
-            // 
-            this.btPotencia.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btPotencia.Location = new System.Drawing.Point(869, 238);
-            this.btPotencia.Name = "btPotencia";
-            this.btPotencia.Size = new System.Drawing.Size(106, 20);
-            this.btPotencia.TabIndex = 10;
-            this.btPotencia.Text = "POTÊNCIA";
-            this.btPotencia.UseVisualStyleBackColor = true;
-            // 
-            // pbRelogioBotao
-            // 
-            this.pbRelogioBotao.Image = ((System.Drawing.Image)(resources.GetObject("pbRelogioBotao.Image")));
-            this.pbRelogioBotao.Location = new System.Drawing.Point(976, 172);
-            this.pbRelogioBotao.Name = "pbRelogioBotao";
-            this.pbRelogioBotao.Size = new System.Drawing.Size(35, 21);
-            this.pbRelogioBotao.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbRelogioBotao.TabIndex = 11;
-            this.pbRelogioBotao.TabStop = false;
-            // 
-            // pbLampadaBotao
-            // 
-            this.pbLampadaBotao.Image = ((System.Drawing.Image)(resources.GetObject("pbLampadaBotao.Image")));
-            this.pbLampadaBotao.Location = new System.Drawing.Point(976, 195);
-            this.pbLampadaBotao.Name = "pbLampadaBotao";
-            this.pbLampadaBotao.Size = new System.Drawing.Size(35, 20);
-            this.pbLampadaBotao.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pbLampadaBotao.TabIndex = 12;
-            this.pbLampadaBotao.TabStop = false;
+            this.bt7.Click += new System.EventHandler(this.FormataTemporizador);
             // 
             // btSoma
             // 
             this.btSoma.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btSoma.Location = new System.Drawing.Point(977, 216);
+            this.btSoma.Location = new System.Drawing.Point(941, 239);
             this.btSoma.Name = "btSoma";
             this.btSoma.Size = new System.Drawing.Size(35, 20);
             this.btSoma.TabIndex = 14;
             this.btSoma.Text = "+";
             this.btSoma.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btSoma.UseVisualStyleBackColor = true;
+            this.btSoma.Click += new System.EventHandler(this.btSoma_Click);
             // 
             // btSubtrai
             // 
             this.btSubtrai.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btSubtrai.Location = new System.Drawing.Point(977, 238);
+            this.btSubtrai.Location = new System.Drawing.Point(869, 239);
             this.btSubtrai.Name = "btSubtrai";
             this.btSubtrai.Size = new System.Drawing.Size(35, 21);
             this.btSubtrai.TabIndex = 15;
             this.btSubtrai.Text = "-";
             this.btSubtrai.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btSubtrai.UseVisualStyleBackColor = true;
+            this.btSubtrai.Click += new System.EventHandler(this.btSubtrai_Click);
             // 
             // btDesliga
             // 
@@ -259,19 +236,48 @@
             this.lbRelogio.TabIndex = 19;
             this.lbRelogio.Text = "00:00";
             // 
+            // bt0
+            // 
+            this.bt0.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt0.Location = new System.Drawing.Point(907, 239);
+            this.bt0.Name = "bt0";
+            this.bt0.Size = new System.Drawing.Size(35, 20);
+            this.bt0.TabIndex = 21;
+            this.bt0.Text = "0";
+            this.bt0.UseVisualStyleBackColor = true;
+            this.bt0.Click += new System.EventHandler(this.FormataTemporizador);
+            // 
+            // btPotencia
+            // 
+            this.btPotencia.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btPotencia.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btPotencia.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btPotencia.Image = ((System.Drawing.Image)(resources.GetObject("btPotencia.Image")));
+            this.btPotencia.Location = new System.Drawing.Point(976, 174);
+            this.btPotencia.Name = "btPotencia";
+            this.btPotencia.Size = new System.Drawing.Size(37, 86);
+            this.btPotencia.TabIndex = 22;
+            this.btPotencia.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btPotencia.UseVisualStyleBackColor = false;
+            this.btPotencia.Click += new System.EventHandler(this.btPotencia_Click);
+            // 
+            // timerDecrementa
+            // 
+            this.timerDecrementa.Interval = 1000;
+            this.timerDecrementa.Tick += new System.EventHandler(this.timerDecrementa_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(1117, 448);
+            this.Controls.Add(this.btPotencia);
+            this.Controls.Add(this.bt0);
             this.Controls.Add(this.lbRelogio);
             this.Controls.Add(this.btAbrir);
             this.Controls.Add(this.btLigar);
             this.Controls.Add(this.btDesliga);
             this.Controls.Add(this.btSubtrai);
             this.Controls.Add(this.btSoma);
-            this.Controls.Add(this.pbLampadaBotao);
-            this.Controls.Add(this.pbRelogioBotao);
-            this.Controls.Add(this.btPotencia);
             this.Controls.Add(this.bt9);
             this.Controls.Add(this.bt8);
             this.Controls.Add(this.bt7);
@@ -289,8 +295,6 @@
             this.Text = "Little Tiny Wave";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbImagemMicroondas)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbRelogioBotao)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbLampadaBotao)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -308,9 +312,6 @@
         private System.Windows.Forms.Button bt9;
         private System.Windows.Forms.Button bt8;
         private System.Windows.Forms.Button bt7;
-        private System.Windows.Forms.Button btPotencia;
-        private System.Windows.Forms.PictureBox pbRelogioBotao;
-        private System.Windows.Forms.PictureBox pbLampadaBotao;
         private System.Windows.Forms.Button btSoma;
         private System.Windows.Forms.Button btSubtrai;
         private System.Windows.Forms.Button btDesliga;
@@ -318,6 +319,9 @@
         private System.Windows.Forms.Button btAbrir;
         private System.Windows.Forms.Timer timerRelogio;
         private System.Windows.Forms.Label lbRelogio;
+        private System.Windows.Forms.Button bt0;
+        private System.Windows.Forms.Button btPotencia;
+        private System.Windows.Forms.Timer timerDecrementa;
     }
 }
 
