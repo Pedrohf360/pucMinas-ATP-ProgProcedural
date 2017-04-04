@@ -81,6 +81,8 @@ namespace _2017_03_23_Microondas
             timerDecrementa.Stop();
 
             timerHoras.Start();
+
+            microwave.TemporizadorAtivo = false;
         }
 
         private void btAbrir_Click(object sender, EventArgs e)
