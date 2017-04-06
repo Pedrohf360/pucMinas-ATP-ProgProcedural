@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2017_04_06_Aula07_AgregCompos_SistBanc", "2017_04_06_Aula07_AgregCompos_SistBanc\2017_04_06_Aula07_AgregCompos_SistBanc.csproj", "{6DEA53E2-42E9-4A4F-9F47-C169628AEBF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DEA53E2-42E9-4A4F-9F47-C169628AEBF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DEA53E2-42E9-4A4F-9F47-C169628AEBF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DEA53E2-42E9-4A4F-9F47-C169628AEBF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DEA53E2-42E9-4A4F-9F47-C169628AEBF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
