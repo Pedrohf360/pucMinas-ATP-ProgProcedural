@@ -1,0 +1,6 @@
+F:\Estudos autônomos\C#\pucMinas\2017_04_12_Bodega\2017_04_12_Bodega\bin\Debug\2017_04_12_Bodega.exe.config
+F:\Estudos autônomos\C#\pucMinas\2017_04_12_Bodega\2017_04_12_Bodega\obj\Debug\2017_04_12_Bodega.csprojResolveAssemblyReference.cache
+F:\Estudos autônomos\C#\pucMinas\2017_04_12_Bodega\2017_04_12_Bodega\bin\Debug\2017_04_12_Bodega.exe
+F:\Estudos autônomos\C#\pucMinas\2017_04_12_Bodega\2017_04_12_Bodega\bin\Debug\2017_04_12_Bodega.pdb
+F:\Estudos autônomos\C#\pucMinas\2017_04_12_Bodega\2017_04_12_Bodega\obj\Debug\2017_04_12_Bodega.exe
+F:\Estudos autônomos\C#\pucMinas\2017_04_12_Bodega\2017_04_12_Bodega\obj\Debug\2017_04_12_Bodega.pdb
