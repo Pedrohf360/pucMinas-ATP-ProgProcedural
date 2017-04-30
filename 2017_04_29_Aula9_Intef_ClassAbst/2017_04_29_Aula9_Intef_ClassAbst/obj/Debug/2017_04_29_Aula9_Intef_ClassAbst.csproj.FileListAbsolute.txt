@@ -1,1 +1,14 @@
 C:\Temp\2017_04_29_Aula9_Intef_ClassAbst\2017_04_29_Aula9_Intef_ClassAbst\bin\Debug\2017_04_29_Aula9_Intef_ClassAbst.exe.config
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas\2017_04_29_Aula9_Intef_ClassAbst\2017_04_29_Aula9_Intef_ClassAbst\bin\Debug\2017_04_29_Aula9_Intef_ClassAbst.exe.config
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas\2017_04_29_Aula9_Intef_ClassAbst\2017_04_29_Aula9_Intef_ClassAbst\bin\Debug\2017_04_29_Aula9_Intef_ClassAbst.exe
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas\2017_04_29_Aula9_Intef_ClassAbst\2017_04_29_Aula9_Intef_ClassAbst\bin\Debug\2017_04_29_Aula9_Intef_ClassAbst.pdb
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas\2017_04_29_Aula9_Intef_ClassAbst\2017_04_29_Aula9_Intef_ClassAbst\bin\Debug\mscorlib.dll
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas\2017_04_29_Aula9_Intef_ClassAbst\2017_04_29_Aula9_Intef_ClassAbst\bin\Debug\pt-BR\mscorlib.resources.dll
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas\2017_04_29_Aula9_Intef_ClassAbst\2017_04_29_Aula9_Intef_ClassAbst\bin\Debug\normidna.nlp
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas\2017_04_29_Aula9_Intef_ClassAbst\2017_04_29_Aula9_Intef_ClassAbst\bin\Debug\normnfc.nlp
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas\2017_04_29_Aula9_Intef_ClassAbst\2017_04_29_Aula9_Intef_ClassAbst\bin\Debug\normnfd.nlp
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas\2017_04_29_Aula9_Intef_ClassAbst\2017_04_29_Aula9_Intef_ClassAbst\bin\Debug\normnfkc.nlp
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas\2017_04_29_Aula9_Intef_ClassAbst\2017_04_29_Aula9_Intef_ClassAbst\bin\Debug\normnfkd.nlp
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas\2017_04_29_Aula9_Intef_ClassAbst\2017_04_29_Aula9_Intef_ClassAbst\obj\Debug\2017_04_29_Aula9_Intef_ClassAbst.csprojResolveAssemblyReference.cache
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas\2017_04_29_Aula9_Intef_ClassAbst\2017_04_29_Aula9_Intef_ClassAbst\obj\Debug\2017_04_29_Aula9_Intef_ClassAbst.exe
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas\2017_04_29_Aula9_Intef_ClassAbst\2017_04_29_Aula9_Intef_ClassAbst\obj\Debug\2017_04_29_Aula9_Intef_ClassAbst.pdb

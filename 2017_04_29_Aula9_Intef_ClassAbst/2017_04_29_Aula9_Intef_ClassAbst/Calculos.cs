@@ -27,18 +27,28 @@ namespace _2017_04_29_Aula9_Intef_ClassAbst
 
         public double MediaPonderada()
         {
-            double soma = 0;
+            double somaPosicoes = 0;
+            double somaPesos = 0;
+            double mediaPonderada;
 
             for (int i = 0; i < amostra.Length; i++)
             {
-                if (((i * 2) % 2) == 0) // se o valor de "i" atual é par, multiplica por 1.
+                if (((i + 2) % 2) == 0) // se o valor de "i" atual é par, multiplica por 1.
                 {
-                    soma += amostra[i] * 2;
+                    somaPosicoes += amostra[i];
+                    somaPesos += 1;
                     continue;
                 }
 
-                soma += amostra[i] * 1;
+                somaPesos += 2;
+                somaPosicoes += amostra[i] * 2;
             }
+            
+            // Média ponderada = cada elemento multiplicado por seu peso (1, 2, 1, 2...) / soma de todos pesos.
+
+            mediaPonderada = somaPosicoes / somaPesos;
+
+            return mediaPonderada;
         }
 
         public int[] Amostra
